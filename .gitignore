@@ -1,0 +1,23 @@
+# Large data files
+data/raw/*
+data/*.csv
+
+# Trained models
+models/*.pkl
+
+# Generated plots
+plots/*.html
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.DS_Store
+
+# Keep empty folder markers
+!data/raw/.gitkeep
+!models/.gitkeep
+!plots/.gitkeep
