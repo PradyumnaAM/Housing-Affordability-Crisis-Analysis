@@ -76,14 +76,4 @@ python main.py
 
 Raw CSVs are placed in `data/raw/` (gitignored due to size).
 
----
 
-## Implementation Schedule
-
-| Day | Owner | Deliverable |
-|-----|-------|-------------|
-| Day 1 | Person 1 | ETL scaffold, Zillow download + melt, metro normalisation |
-| Day 2 | Person 1 | BLS + income loaders, full master merge → `data/master_housing.csv` |
-| Day 2 | Person 2 | Regression model, clustering model |
-| Day 2 | Person 3 | Choropleth + trend-line charts |
-| Day 3 | All | Integration, fastest-deteriorating analysis, final charts, write-up |
